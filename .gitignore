@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite Database
+mcp_server/weather_log.db
+mcp_server/weather_log.db-journal
+
+# Environments and configs
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Local/temporary test scripts (optional to ignore, or you can keep them)
+test_server.py
+test_api.py
+test_db.py

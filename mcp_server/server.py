@@ -1,5 +1,5 @@
 from mcp.server.mcpserver import MCPServer
-from mcp_server.agent import get_weather
+from agent import get_weather
 from mcp_server import db
 
 server = MCPServer(name="weather-agent-server")
